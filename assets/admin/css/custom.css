@@ -1,0 +1,223 @@
+body {
+    padding-bottom: 40px;
+}
+
+.sidebar-nav {
+    padding: 9px 0;
+}
+
+.error-border
+{
+    border: 1px solid #ff0000 !important;
+}
+
+.error-class
+{
+    color: #ff0000 !important;
+    margin: 5px 0 0 -80px;
+    float: right;
+    position: absolute;
+}
+
+.opacity_layer {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0.80;
+    background-color: #000;
+    z-index: 1031;
+    display: none;
+}
+
+.ajax_container {
+    /*min-width: 500px;
+    min-height: 550px;*/
+
+    z-index: 1053;
+    border: solid 2px #666;
+    background-color: #F9F9F9;
+    display: none;
+    top: 5% !important;
+    margin: 0 auto !important;
+    position: fixed !important;
+}
+
+.bootstrap-wysihtml5-insert-link-modal {
+    z-index: 99999 !important;
+}
+
+.ajax_container > .content_container {
+    overflow-y: scroll;
+    position: relative;
+    background-color: #ffffff;
+
+    max-height: 500px;
+}
+
+.ajax_container > .content_container > .container-fluid{
+    height: 100% !important;
+}
+
+.ajax-header {
+    position: fixed;
+    margin: -50px 0 0 0;
+    width: 84%;
+    background: #1D943B;
+    padding: 15px 0 15px 30px;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+    z-index: 1040;
+}
+
+.bootstrap-wysihtml5-insert-image-modal, .modal {
+    z-index: 9999 !important;
+}
+
+.control-text {
+    padding: 0;
+    margin: 7px 15px;
+    float: left;
+}
+
+/*invoice table*/
+#main-table {
+    width: 100%;
+    line-height: 40px;
+}
+
+#main-table tr {
+    line-height: 45px;
+}
+
+#main-table .text {
+    text-align: right;
+    padding: 0 10px 0 0;
+}
+
+#main-table tr td {
+
+}
+
+.width {
+    width: 150px !important;
+}
+
+.margin {
+    margin: 5px 0;
+}
+
+.inner-table {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.inner-table tr td {
+
+}
+
+.inner-table-text {
+    background: #4b8df8;
+    padding: 0 0 0 15px;
+    margin: 0;
+    line-height: 35px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    border: 1px solid grey;
+}
+
+.delete-row {
+    margin: 4px -4px;
+    float: right;
+    height: 10px;
+    width: 75px;
+    padding: 11px 15px;
+    font-weight: bold;
+}
+
+.add-row {
+    margin: -20px -4px;
+    float: right;
+    width: 95px;
+    padding: 8px 5px;
+    font-weight: bold;
+}
+
+.error-text {
+    color: red;
+    font-weight: bold;
+}
+
+.controls > .file-upload
+{
+}
+
+/*image upload*/
+
+#imagesUpload {
+    background: #BB2413;
+    width: 94px !important;
+    padding: 2px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    border-radius: 4px !important;
+}
+
+.uploadify-queue-item {
+    display: none;
+}
+
+#image-uploaded {
+    margin: 0 0 0 6px;
+    width: 100%;
+    float: left;
+}
+
+#image-uploaded img {
+    height: 100px;
+    margin: 0 10px 10px 0;
+    position: relative;
+    float: left;
+}
+
+#image-uploaded {
+    margin: 0 0 0 6px;
+    width: 100%;
+    float: left;
+}
+
+#image-uploaded div {
+    width: auto;
+    margin: 0 10px 10px 0;
+    float: left;
+}
+
+#image-uploaded img {
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+    float: none;
+    display: block;
+}
+
+#image-uploaded div a {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    background: #808080;
+    color: darkblue;
+    text-decoration: none;
+    float: left;
+}
+
+#image-uploaded div a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
